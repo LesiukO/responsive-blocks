@@ -35,6 +35,15 @@ ul, img, h1, h2, h3, p {
 
 #block-1 {
   width: calc(100% - 1000px);
+  background-color: #86a4bc;
+}
+
+#block-2, #block-3 {
+  background-color: #c3c977;
+}
+
+#block-4, #block-5 {
+  background-color: #f8b06c;
 }
 
 @media (max-width: 1200px) {
@@ -49,6 +58,18 @@ ul, img, h1, h2, h3, p {
 
   #block-1 {
     width: calc(100% - 800px);
+  }
+
+  #block-3 {
+    order: 3;
+  }
+
+  #block-4 {
+    order: 2;
+  }
+
+  #block-5 {
+    order: 4;
   }
 }
 @media (max-width: 1000px) {
